@@ -1,0 +1,33 @@
+---
+title: "WEBSITE"
+author: "Kevin Liu"
+date: "2023-11-02"
+output: html_document
+---
+
+
+## Hyperlinks
+One important feature of your site will be hyperlinks. The general format for links is [text for link](address.of.link). So, to link to my favorite tool for data science, I’d use [this](google.com).
+
+## Linking Pages
+Your website usually has more than one page. These pages can be created using the same process as index.html: create an Rmd file and knit to html. Once you have another page (e.g. about.html) you need to link to it from your home page (e.g. using use [about](about.html)), or no one will be able to find it.
+
+## Inserting Media
+Sometimes you want to add images – pictures you’ve taken or found on the internets, rather than things that are generated from analyses. This is a bit more involved than other things you might want to do. RMD’s default image settings (using ![](image.jpg)) aren’t great. I often use a line of HTML:
+
+```{r}
+<img src="images/image.jpg" style="width:75%">
+```
+
+# _site.yml
+
+Right now, all our pages have styling, output, and structure coming from page-specific YAML. It’s better to have one set of rules that apply site-wide instead. To do this, we’ll create a single file with all the YAML stuff we need, and at the same time remove extraneous YAML header content from individual Rmd files.
+
+Create your _site.yml file by going to File > New File > Text file. Copy the content below, and save the file as _site.yml in your project’s home folder.
+
+## Nav Bar
+There are several ways you can arrange the nav bar (right vs. left; single pages vs. drop-down menus) but the idea is to give a way to navigate through your site, not just your page. 
+
+## Icons 
+The two icons are there to encourage good practices – an easy way for someone to email you, and a link to the source for the site on GitHub (icons come from font awesome). I’ve also included an “About” page, which is pretty common for pages describing projects.
+
