@@ -11,6 +11,6 @@ navbar:
       href: http://github.com/klol46/
 output:
   html_document:
-    theme: cerulean
+    theme: yeti
     
     
