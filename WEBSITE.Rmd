@@ -31,3 +31,9 @@ There are several ways you can arrange the nav bar (right vs. left; single pages
 ## Icons 
 The two icons are there to encourage good practices – an easy way for someone to email you, and a link to the source for the site on GitHub (icons come from font awesome). I’ve also included an “About” page, which is pretty common for pages describing projects.
 
+
+
+# Hosting on Github
+My Webisite! 
+https://klol46.github.io/index.html
+
