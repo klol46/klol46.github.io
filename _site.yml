@@ -5,6 +5,8 @@ navbar:
   right:
     - text: "about"
       href: about.html
+    - text: "hw4 - plotly"
+      href: plotly.html
     - text: "hw1"
       href: https://github.com/klol46/p8105_hw1_kl3453
     - text: "hw2"
